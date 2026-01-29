@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: menu.calibration
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 9b6e9bffcfec0e74fb7292e5c00b873e, type: 2}
+  controls:
+  - name: 
+    icon: {fileID: 2800000, guid: 2146698bdb2b64f4c87a1f71d60712cc, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Calibration Mode
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 102
+    parameter:
+      name: vistek.calibration
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.near_plane
+    labels: []
+  - name: IPD
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.ipd
+    labels: []
+  - name: Height
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.height
+    labels: []
+  - name: Depth
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.depth
+    labels: []
+  - name: Pitch
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.pitch
+    labels: []
+  - name: Near Plane
+    icon: {fileID: 2800000, guid: 17e7a5c3a11b02344915b28aa84efa7c, type: 3}
+    type: 203
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: vistek.near_plane
+    labels: []

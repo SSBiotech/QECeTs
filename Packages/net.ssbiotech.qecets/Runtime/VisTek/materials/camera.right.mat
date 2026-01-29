@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: camera.right
+  m_Shader: {fileID: 4800000, guid: 42acc3962b3852e459e96ca8cafb6e35, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplacementMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MemeTex:
+        m_Texture: {fileID: 8400000, guid: ef438c7dbd0e2e645bb479084259271f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanarMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BarXAngle: 0
+    - _BarXDistance: 0
+    - _BarXInterval: 1
+    - _BarXOffset: 0
+    - _BarYAngle: 0
+    - _BarYDistance: 0
+    - _BarYInterval: 1
+    - _BarYOffset: 0
+    - _BlockDisplacementAngle: 0
+    - _BlockDisplacementIntensity: 0
+    - _BlockDisplacementMode: 0
+    - _BlockDisplacementOffset: 0
+    - _BlockDisplacementSize: 0
+    - _BlurMovementBlend: 1
+    - _BlurMovementBlurIntensity: 1
+    - _BlurMovementExtrapolation: 0
+    - _BlurMovementOpacity: 0
+    - _BlurMovementRange: 1
+    - _BlurMovementSampleCount: 42
+    - _BlurMovementTarget: 0.5
+    - _CancerDisplayMode: 0
+    - _CancerEffectQuantization: 0
+    - _CancerEffectRange: 1
+    - _CancerEffectRotation: 0
+    - _CancerOpacity: 1
+    - _CheckerboardAngle: 0
+    - _CheckerboardScale: 10
+    - _CheckerboardShift: 0
+    - _ChromaticAberrationBlend: 1
+    - _ChromaticAberrationSeparation: 1.5
+    - _ChromaticAberrationShape: 0
+    - _ChromaticAberrationStrength: 0
+    - _CircularVignetteBegin: 25
+    - _CircularVignetteEnd: 50
+    - _CircularVignetteMode: 2
+    - _CircularVignetteOpacity: 0
+    - _CircularVignetteRoundness: 1
+    - _CircularVignetteScaleWithDistance: 0
+    - _ClampSaturation: 0
+    - _ColorInversionB: 0
+    - _ColorInversionG: 0
+    - _ColorInversionR: 0
+    - _ColorModifierBlend: 1
+    - _ColorModifierMode: 0
+    - _ColorModifierStrength: 5
+    - _ColorVectorDisplacementCoordinateSpace: 1
+    - _ColorVectorDisplacementStrength: 0
+    - _ColorizedSignalNoise: 0
+    - _CoordinateScale: 1
+    - _CoordinateSpace: 0
+    - _CosWaveAmplitude: 0
+    - _CosWaveAngle: 0
+    - _CosWaveDensity: 10
+    - _CosWaveOffset: 0
+    - _CullMode: 0
+    - _DisableNameplates: 1
+    - _DisplacementMapAngle: 0
+    - _DisplacementMapClamp: 0
+    - _DisplacementMapColumns: 1
+    - _DisplacementMapCount: 1
+    - _DisplacementMapCutOut: 0
+    - _DisplacementMapIndex: 0
+    - _DisplacementMapIntensity: 0
+    - _DisplacementMapIterations: 1
+    - _DisplacementMapOscillationSpeed: 0
+    - _DisplacementMapRows: 1
+    - _DisplacementMapScaleWithDistance: 0
+    - _DisplacementMapType: 1
+    - _DisplayOnSurface: 0
+    - _DistortionDesyncB: 0
+    - _DistortionDesyncBlend: 1
+    - _DistortionDesyncG: 0
+    - _DistortionDesyncR: 0
+    - _DstFactor: 10
+    - _EdgelordStripeOffset: 0
+    - _EdgelordStripeSize: 0
+    - _EyeConvergence: 0
+    - _EyeSelector: 2
+    - _EyeSeparation: 0
+    - _FalloffAngleBegin: 0.1
+    - _FalloffAngleEnd: 0.2
+    - _FalloffBeginPercentage: 0.75
+    - _FalloffEnabled: 0
+    - _FalloffEndPercentage: 1
+    - _FalloffFlags: 3
+    - _FanBlades: 5
+    - _FanDistance: 0
+    - _FanOffset: 1
+    - _FanScale: 5
+    - _FishEyeIntensity: 0
+    - _FogBegin: 25
+    - _FogEnd: 200
+    - _FogType: 0
+    - _GeometricDitherDistance: 0
+    - _GeometricDitherQuality: 5
+    - _GeometricDitherRandomization: 0
+    - _GlitchAngle: 0
+    - _GlitchCount: 10
+    - _GlitchIntensity: 0
+    - _GlitchSeed: 0
+    - _GlitchSeedInterval: 1
+    - _Hue: 0
+    - _ImaginaryColorAngle: 0
+    - _ImaginaryColorBlendMode: 2
+    - _ImaginaryColorOpacity: 0
+    - _KaleidoscopeAngle: 0
+    - _KaleidoscopeSegments: 0
+    - _MaskFlags: 3
+    - _MaskMapAngle: 0
+    - _MaskMapClamp: 0
+    - _MaskMapColumns: 1
+    - _MaskMapCount: 1
+    - _MaskMapCutOut: 0
+    - _MaskMapIndex: 0
+    - _MaskMapOpacity: 0
+    - _MaskMapRows: 1
+    - _MaskMapScaleWithDistance: 0
+    - _MaskSampleDistortedCoordinates: 0
+    - _MaxGlitchHeight: 20
+    - _MaxGlitchWidth: 20
+    - _MeltAngle: 0
+    - _MeltBothDirections: 0
+    - _MeltDistance: 0
+    - _MeltInterval: 1
+    - _MeltSeed: 0
+    - _MeltVariance: 0.9
+    - _MemeImageAlignment: 0
+    - _MemeImageAngle: 0
+    - _MemeImageColumns: 1
+    - _MemeImageCount: 1
+    - _MemeImageDistance: 15
+    - _MemeImageIndex: 0
+    - _MemeImagePitch: 0
+    - _MemeImageRows: 1
+    - _MemeImageYaw: 0
+    - _MemeImageZTest: 0
+    - _MemeTexAlphaCutOff: 0.9
+    - _MemeTexClamp: 0
+    - _MemeTexCutOut: 0
+    - _MemeTexOpacity: 1
+    - _MemeTexOverrideMode: 0
+    - _MinGlitchHeight: 10
+    - _MinGlitchWidth: 10
+    - _MirrorMode: 0
+    - _MoveX: 0
+    - _MoveY: 0
+    - _MoveZ: 0
+    - _NoiseOffset: 0
+    - _NoiseScale: 10
+    - _NoiseStrength: 0
+    - _NormalVectorDisplacementCoordinateSpace: 1
+    - _NormalVectorDisplacementQuality: 1
+    - _NormalVectorDisplacementStrength: 0
+    - _ObjectDisplayMode: 0
+    - _PaletteOffset: 0
+    - _PaletteOpacity: 0
+    - _PaletteScale: 1
+    - _PalleteSource: 1
+    - _ParticleSystem: 0
+    - _PlatformSelector: 2
+    - _PolarInversionIntensity: 0
+    - _Quantization: 0
+    - _ReadMask: 255
+    - _RemoveCameraRoll: 0
+    - _RingRotationInnerAngle: 0
+    - _RingRotationOuterAngle: 3.1415925
+    - _RingRotationRadius: 0
+    - _RingRotationWidth: 0
+    - _RippleAmplitude: 0
+    - _RippleDensity: 50
+    - _RippleInnerFalloff: 0
+    - _RippleOffset: 0
+    - _RippleOuterFalloff: 0
+    - _RotationX: 0
+    - _RotationY: 0
+    - _RotationZ: 0
+    - _Saturation: 0
+    - _ScreenSamplingMode: 1
+    - _ScreenShakeSpeed: 50
+    - _ScreenShakeXAmplitude: 10
+    - _ScreenShakeXIntensity: 0
+    - _ScreenShakeYAmplitude: 10
+    - _ScreenShakeYIntensity: 0
+    - _ScreenShakeZAmplitude: 10
+    - _ScreenShakeZIntensity: 0
+    - _ShrinkHeight: 0
+    - _ShrinkWidth: 0
+    - _SignalNoiseOpacity: 0
+    - _SignalNoiseSize: 1
+    - _SinBarXAngle: 0
+    - _SinBarXDistance: 0
+    - _SinBarXInterval: 1
+    - _SinBarXOffset: 0
+    - _SinBarYAngle: 0
+    - _SinBarYDistance: 0
+    - _SinBarYInterval: 1
+    - _SinBarYOffset: 0
+    - _SinCosWaveAmplitude: 0
+    - _SinCosWaveAngle: 0
+    - _SinCosWaveCosDensity: 10
+    - _SinCosWaveCosOffset: 0
+    - _SinCosWaveSinDensity: 10
+    - _SinCosWaveSinOffset: 0
+    - _SinWaveAmplitude: 0
+    - _SinWaveAngle: 0
+    - _SinWaveDensity: 10
+    - _SinWaveOffset: 0
+    - _SkewXAngle: 0
+    - _SkewXDistance: 0
+    - _SkewXInterval: 1
+    - _SkewXOffset: 0
+    - _SkewYAngle: 0
+    - _SkewYDistance: 0
+    - _SkewYInterval: 1
+    - _SkewYOffset: 0
+    - _SliceAngle: 0
+    - _SliceDistance: 0
+    - _SliceOffset: 0
+    - _SliceWidth: 10
+    - _SobelBlendMode: 0
+    - _SobelOpacity: 0
+    - _SobelQuality: 1
+    - _SobelSearchDistance: 0.2
+    - _SpiralIntensity: 0
+    - _SplitXAngle: 0
+    - _SplitXDistance: 0
+    - _SplitXHalf: 0
+    - _SplitYAngle: 0
+    - _SplitYDistance: 0
+    - _SplitYHalf: 0
+    - _SrcFactor: 5
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilRef: 0
+    - _StencilZFail: 0
+    - _TanWaveAmplitude: 0
+    - _TanWaveAngle: 0
+    - _TanWaveDensity: 10
+    - _TanWaveOffset: 0
+    - _TriplanarBlendMode: 1
+    - _TriplanarCoordinateSrc: 0
+    - _TriplanarOffsetX: 0
+    - _TriplanarOffsetY: 0
+    - _TriplanarOffsetZ: 0
+    - _TriplanarOpacity: 0
+    - _TriplanarQuality: 1
+    - _TriplanarSampleSrc: 0
+    - _TriplanarScale: 1
+    - _TriplanarSharpness: 2
+    - _Value: 0
+    - _Visibility: 1
+    - _VoroniNoiseBorderMode: 0
+    - _VoroniNoiseBorderSize: 0.1
+    - _VoroniNoiseBorderStrength: 1
+    - _VoroniNoiseOffset: 0
+    - _VoroniNoiseScale: 10
+    - _VoroniNoiseStrength: 0
+    - _WarpAngle: 0
+    - _WarpIntensity: 0
+    - _WorldSamplingMode: 0
+    - _WorldSamplingRange: 1
+    - _WriteMask: 255
+    - _ZTest: 8
+    - _ZWrite: 0
+    - _ZigZagXAmplitude: 0
+    - _ZigZagXAngle: 0
+    - _ZigZagXDensity: 10
+    - _ZigZagXOffset: 0
+    - _ZigZagYAmplitude: 0
+    - _ZigZagYAngle: 0
+    - _ZigZagYDensity: 10
+    - _ZigZagYOffset: 0
+    - _colorSkewBAngle: -1.5707964
+    - _colorSkewBDistance: 3
+    - _colorSkewBOpacity: 0
+    - _colorSkewBOverride: 0
+    - _colorSkewGAngle: 0
+    - _colorSkewGDistance: -3
+    - _colorSkewGOpacity: 0
+    - _colorSkewGOverride: 0
+    - _colorSkewRAngle: 0
+    - _colorSkewRDistance: 3
+    - _colorSkewROpacity: 0
+    - _colorSkewROverride: 0
+    m_Colors:
+    - _CancerEffectOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CircularVignetteColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorMask: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgelordStripeColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmptySpaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PaletteA: {r: 0, g: 0.5, b: 0.75, a: 0}
+    - _PaletteB: {r: 0.55, g: 0.11, b: 0.33, a: 0}
+    - _PaletteOscillation: {r: 1, g: 2, b: 3, a: 0}
+    - _PalettePhase: {r: 0.88, g: 0.43, b: 0.92, a: 0}
+  m_BuildTextureStacks: []
